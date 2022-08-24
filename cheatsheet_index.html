@@ -1,0 +1,438 @@
+<!--HTML is a Structure-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cheatsheet-all</title>
+</head>
+
+<body>
+    <h1>HTML / ELEMENTS</h1>
+
+            <!--<a> "anchor" Element-->
+        <h2>Anchor (<code>anchor</code>)</h2>
+                <ul>
+                    <li><h3>What is <a href="https://www.codecademy.com/resources/docs/html/elements/a" target="_blank">"anchor"<code>(a)</code></a> and what we use for.</h3></li>
+                    <p class="explanation">When we wnat to use words as a link we can use anchor for that.</p>
+                    <p class="explanation">It can link to another website. We can also open it at the same tab or another one.</p>
+
+                    <li>
+                        <h3><a href="http://www.codecademy.com" target="_blank"><img src="https://raw.githubusercontent.com/Codecademy/docs/main/media/cc_logo.png"></a></h3>
+                        <p class="explanation">We can also use anchor as an image <code>(img)</code></p>
+                    </li>
+
+                    <li><h3><a href="mailto:tolgakonuk0@gmail.com">tolgakonuk0@gmail.com</a></h3>
+                    <p class="explanation">we can also add <code>a href="mailto:(your-mail-adress@...com)</code> this and when you click on it. It will sent an e mail directly.</p></li>
+
+                    <li><h3><a href="tel:555-007-35-93">555-007-35-93</a></h3></li>
+                </ul>
+
+            <!--<abbr> abbreviation (Kısaltma) element-->
+        <h2>abbreviation (<code>abbr</code>)</h2>
+            <ul>
+                <li>
+                    <p><code>abbr</code> element indicates an abbreviation of a longer word or phrase. It can use the <code>title</code> attribute recommended.</p></li>
+                    <p>"Alınan karar sonucu Belediye'ye bağlı 
+                        <abbr title="Koruma Uygulama ve Denetim Büroları" style="border-style: solid;">
+                            <a href="https://kvmgm.ktb.gov.tr/TR-44966/koruma-uygulama-ve-denetim-burolari-kudeb.html" target="_blank">KUDEP</a></abbr> 
+                        yetkilileri göz altına alındı."</p>
+            </ul>
+
+            <!--Audio <audio> Element-->
+        <h2>Audio (<code>audio</code>)</h2>
+            
+            <ul>
+                <li>Represents an interface for adding audio content to the page.</li>
+                <p>It can be MP3 or WAV or OGG</p>
+                <p>We can use this <code>audio</code> with <code>autoplay</code> which is automaticly plays the song. <br> 
+                We can use this <code>controls</code> whic can show us control panels like pause stop etc. <br> 
+                we can even use this with <code>loop</code> as you can understand loop the file.Again and Again</p>
+            </ul>
+
+            <audio src="C:\Users\tolga\Desktop\RİTİM 404.mp3" controls loop type="audio/mp3">benim şarkım</audio>
+
+            <!--Spotify file here Benzin-->
+            <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/1XanLfYUUBB6bLbnSh1KyU?utm_source=generator" 
+            width="100%" height="380" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
+
+            <!--BLOCKQUOTE <blockquote>-->
+        <h2>Blockquote (<code>blockquote</code>)</h2>
+            <ul>
+                <li>When we need to make an important words or quote we use this code.</li>
+                <li>Example</li>
+                    <h3>Article Title</h3>
+                    <p>First paragraph of article.</p>
+                    <p>Second paragraph of article</p>
+                        <blockquote>
+                            <p>important quote that needs to stand out.<br>
+                            Author Name, Quote Source</p>
+                        </blockquote>
+            </ul>
+
+            <!--Bold <b> Element Which makes something bold-->
+        <h2>Bold (<code>b</code>)</h2>
+            <ul>
+                <li>The <code>b</code> element is used to draw attention on the marked text. This done by making the text bold.</li>
+            </ul>
+            <p>Please pay attantion on <b>this</b> word.</p>
+            <p>This word <code><b>b (bold)</b></code></p>
+
+            <!--Break Element <br>-->
+        <h2>Break (<code>br</code>)</h2>
+            <ul>
+                <li>The break <code>br</code> element represents a <b>break</b> in text.</li>
+                <p>the break <code>br</code> is an self-closing tag and will move the text after it to a <br> new line. <code>br /</code> is an optional but good to understand to find <br>
+                to break tag in code text.</p>
+                <p> Yalıkavak Mahallesi <br> Buminhan Tengiz Evleri <br>B blok <br> No:10 <br>Daire 2</p>
+            </ul>
+
+            <!--BUTTON <button>-->
+        <h2>Button (<code>button</code>)</h2>
+                <ul>
+                    <li>A <b>button</b> is a design element that allows users to take action.</li>
+                    <li>What <b>buttons use for?</b></li>
+                    <p>The <b>primary action</b> is what users are most likely to select. Or it can be their primary option</p>
+                    <p><b>Secondary actions</b> offers an alternative to the primary action.</p>
+                    <p><b>Terriary action</b> are additional action that user may need to access</p>
+                    <img src="https://static-assets.codecademy.com/Courses/intro-to-ui-and-ux/docs/Buttons-Containers.png"
+                    height="400" style="border: 1px solid rgb(63, 63, 63);">
+                    <p></p>
+                    <img class="example" src="https://static-assets.codecademy.com/Courses/intro-to-ui-and-ux/docs/Buttons-Primary-Secondary-Tertiary.png"
+                    height="400" style="border: 1px solid rgb(63, 63, 63);">
+                    <li><b><code>button</code></b> button element</li>
+                        <p>The <code>button</code> element represents a button meant to be clicked by users.</p>
+                        <p></p>
+                        <button>Köpeği susturmak için</button><p>If autofocus used as an attribute when you reflesh the pace it will automaticly focus on that button</p>
+                </ul>
+
+            <!--Canvas???-->
+        <h2>Canvas (<code>canvas</code>)</h2>
+                    <p><p></p></p>
+
+            <!--cite element-->
+        <h2>cite (<code>cite</code>)</h2>
+                <ul>
+                    <li>The <cite> element represents a citation to a referenced work such as a book, a song, or a painting. <br> 
+                        It needs to include only the title of the work being referenced.</li>
+                </ul>
+
+            <!--CODE ELEMENT <code>-->
+        <h2>Code (<code>code</code>)</h2>
+                <ul>
+                    <li>The (<code>code</code>) element represents source code contained in the text.</li>
+                        <p>Example: you can use (<code>code element</code>) element for writing codes on...</p>
+                </ul>
+
+            <!--DL DETAIL LIST?-->
+        <h2>Detail List Element (<code>dl</code>)</h2>
+                <ul>
+                    <li>The (<code>dl</code>) element is a description list that displays terms and details, commonly for <b>metadata</b> purpose.</li>
+                    <li>Inside of the (<code>dl</code>) element we can use one or more (<code>dt</code>) and (<code>dd</code>) elements.</li>
+                    <li>We can use just like (<code>ul,ol</code>) elements.</li>
+                        <p></p>
+                </ul>
+        <h3>Detail Term (<code>dt</code>) and Detail Data (<code>dd</code>)</h3>
+                <ul><li>Basicly we use detail <b>tems and data</b> just like list element. First we need detail list, than we need detail term or just dtail data. </li></ul>
+                        <dl>
+                            <div>
+                                <dt id="term-a" class="term">Aardvark</dt>
+                                <dd class="detail">
+                                    A large burrowing African mammal that feeds on ants and termites with its long sticky tongue.</dd>
+                            </div>
+                            <div>
+                                <dt id="term-b" class="term">Aback</dt>
+                                <dd class="detail">By surprise; suddenly, unaware(s).</dd>
+                            </div>
+                        </dl>
+
+            <!--Division <div> Element-->
+        <h2>Division Element (<code>div</code>)</h2>
+                <ul><li>
+                    The (<code>div</code>) element represents a gerneric divison of content. It has no sematic meaning, but will separate its contents from rest of the document.</li>
+                    <li>It is good to use when no other tag matches the content type.</li>
+                    <li>Often used to help style an entire pace, or section of a page via the (<code>class</code>) or (<code>id</code>) attribute.</li>
+                        <p>You can see how it works by useing dev-mode on this site.</p>
+                </ul>
+
+            <!--Emphasized-<em>-->
+        <h2>Emphasize (<code>em</code>)</h2>
+                <ul>
+                    <li>The (<code>em</code>) element represents text which is emphasized. Italic.</li>
+                    <li>We can also use (<code>em</code>) with (<code>b</code>). It will be bold and Italic at the same time.</li>
+                </ul>
+                    <p>Here is some text, and this part is <em>very important</em> I hope you understand <em><b> this.</b></em></p>
+
+            <!--Font Element <font>-->
+        <h2>Font Element (<code>font</code></h2>
+                <ul>
+                    <li>The (<code>font</code> element used to set font size, color, face or style. But now we use CSS  files for this.</li>
+                    <p style="background-color: aqua;">color,</p>
+                    <p style="font-family: Verdana, Geneva, Tahoma, sans-serif;">face,</p>
+                    <p style="font-size: 35px;">size,</p>
+                </ul>
+                <p>Example:</p>
+                    <font color="blue">This text is <em>blue</em>.</font><br>
+                    <font size="36px">This text is 36px.</font><br>
+                    <font face="verdana">This text's verdana.</font><br>
+
+            <!--Headings From <h1> to <h6>-->
+        <h2>Heading (<code>h1-h6</code>)</h2>
+                <ul>
+                    <li>Heading (<code>h_</code>) represent text headings for sections or contents.</li>
+                    <li>Range starts with (<code>h1</code>) to (<code>h6</code>).</li>
+                    <p></p>
+                    <h1>Title of the Page</h2>
+
+                        <h2>Name of First Section</h2>
+                        <p>Text from first section.</p>
+                    
+                        <h2>Name of Second Section</h2>
+                        <p>Text from second section.</p>
+                </ul>
+
+            <!--Head Element <head>-->
+        <h2>Head Element (<code>head</code>)</h2>
+                <ul>
+                    <li>Head element make a connetions between other indexs like css file or html or java.</li>
+                    <li>We can't see that lists or connetions on webpace but we can see and read it by code file.</li>
+                    <li>When you write something by using code, it starts with head element.</li>
+                </ul>
+
+            <!--HTML ELEMENT <html>-->
+        <h2>HTML Element (<code>html</code>)</h2>
+                <ul>
+                    <li>It represents the entire HTML document.</li>
+                    <li>It may only have (<code>head</code>) and (<code>body</code>) as its children. </li>
+                </ul>
+
+            <!--I Element <i>-->
+        <h2>Italic Element (<code>i</code>) </h2>
+                <ul>
+                    <li> This is commonly illustrated by displaying the textin <i>italics</i>. </li>
+                    <li>It is best to use CSS for text formating ad also (<code>font-style</code>) </li>
+                    <p>Lets give as an example by <i>writing as an italic.</i></p>
+                </ul>
+
+            <!--Frame Element <iframe>-->
+        <h2>Frame Element (<code>iframe</code>) </h2>
+                <ul>
+                    <li> The (<code>iframe</code>) element represents a container used to embed a second web pace inside the current one. </li>
+                    <li> It can be used for content from the same domain as the parent, or even from a second domain. </li>
+                    <li> (<code>iframe</code>) uses with attributes you don't need to contain any elements between the opening and closing tags. </li>
+                    <li> Inside of your website you can put another website.</li>
+                        <p> (<code>src</code>) source which specifies the URL to embed. </p>
+                        <p> (<code>height</code>) defaults to 150 px. </p>
+                        <p> (<code>width</code>) defaults to 300 px. </p>
+                        <iframe width="" height="" src="https://www.youtube.com/embed/j-eiYjfQ4ok" 
+                        title="ÖZGÜR DEMİRTAŞ KİMİ NAKAVT ETTİ?" frameborder="5" allow="accelerometer; clipboard-write; encrypted-media; 
+                        gyroscope; picture-in-picture" allowfullscreen style="border: 3px solid rgb(37, 37, 37) ;"></iframe>
+                        <br>
+                        <iframe src="https://tureng.com/tr/turkce-ingilizce/embed" frameborder="0" height="150" width="800"></iframe>
+                </ul>
+
+            <!--KEYBOARD DATA-->
+        <h2>Keyboard Data (<code>kbd</code>) </h2>
+                <ul>
+                    <li>
+                        The keyboard data (<code>kbd</code>)is an element that emphasizes the characters to look like keys on a keyboard.
+                    </li>
+                    <li>Example:</li>
+                        <p>You can copy text by pressing <kbd>CTRL</kbd>+<kbd>C</kbd>. <br>
+                        You can paste text by pressing <kbd><kbd>CTRL</kbd>+<kbd>V</kbd></kbd>.</p>
+                </ul>
+
+            <!--LIST ELEMENT <li>-->
+        <h2>List Element (<code>li</code>) </h2>
+                <ul>
+                    <li>List element represents <a href="https://www.codecademy.com/resources/docs/html/lists" target="_blank" >list</a> item.</li>
+                    <li>It can be with ordered list with items by numbers.</li>
+                    <li>Unordered list by dots.</li>
+                        <p>Example:</p>
+                            <ol>
+                                <li>Fruits</li>
+                                <ul>
+                                <li>Apples 🍎</li>
+                                <li>Oranges 🍊</li>
+                                </ul>
+                                <li>Vegetables</li>
+                                <ul>
+                                <li>Tomatoes 🍅</li>
+                                </ul>
+                            </ol>
+                </ul>
+            <!--LINK ELEMENT <link>-->
+        <h2>Link Element (<code>link</code>) </h2>
+                <ul>
+                    <li>Link element connects the current web pace with an external file such as a stylesheet or a library.</li>
+                    <ol>The primarys attributes are:
+                        <li>A (<code>rel</code>) to describe the format of the external source. </li>
+                        <li>An (<code>href</code>) that contains the filepath to the external source. </li>
+                </ol>
+                </ul>
+
+            <!--MENU ELEMENT <menu>-->
+        <h2>Menu Element (<code>menu</code>) </h2>
+            <ul>
+                <li>(<code>menu</code>) Element represents an unordered list of items with more <b>sematic</b> meaning than a regular (<code>ul</code>) element.</li>
+                <li>With (<code>link</code>) and (<code>button</code>) elements it makes much more sense. </li>
+                <li>Example:</li>
+            </ul>
+            
+            <menu>
+                <button>Like</button>
+                <button>Share</button>
+                <button>Subscribe</button>
+            </menu>
+
+            <!--META ELEMENT-->
+        <h2>Meta Element (<code>meta</code>) </h2>
+            <ul>
+                <li> Meta element represents an interface to metadata. It describes the files and other informations about web site.</li>
+             </ul>
+                <p> <b>charset:</b> describes the character encoding used when writing the document,<br>
+                    <b>name:</b> describes the type of meta tag, may include things like "author", "description", "keywords", and "color-scheme",<br>
+                    <b>content:</b> accompanies name to provide the appropriate content specific to the value of name.</p>
+
+
+<!--NOSCRIPT ELEMENT AND SCRIPT ELEMENT-->
+<h2>(<code>noscript</code>) and (<code>script</code>) Elements <h2>
+    <ul>
+        <li>Whenever Javascrit is disabled on the browser, noscript will displays that contents.</li></ul>
+
+<!--OBJECT ELEMENT-->
+<h2>Object Element (<code>object</code>) </h2>
+        <ul>
+            <li>The (<code>object</code>) element represents resources external to the HTML document. </li>
+            <li>It kind a like (<code>iframe</code>) </li>
+        </ul>
+
+        <object
+        width="420"
+        height="315"
+        type="video/mp4"
+        data="https://www.youtube.com/v/138enunVlfs"
+      ></object>
+
+<!--OPTION ELEMENT-->
+<h2>Option Element (<code>option</code>) </h2>
+    <ul>
+        <li>Option element represents one possible section in the dropdown created by the (<code>select</code>) tag. </li>
+        <li>Option element should use inside of the (<code>select</code>) tag. </li>
+        <li>attributes that we can use with:</li>
+        <p> (<code>disabled</code>) makes options disabled. <br>
+            (<code>label</code>) specifies a shorter label an option. <br>
+            (<code>selected</code>)<br>
+            (<code>value</code>) </p>
+    </ul>
+    <p>Example:</p>
+    <form>
+        <label for="book">Please select your book.</label>
+        <select name="book" id="book">
+            <option value="1">Lord of The Rings</option>
+            <option value="2">New York City Architecture</option>
+            <option value="3">150 Best Kitchen Ideas</option>
+            <option value="4">Architecture of Bodrum</option>
+        </select>
+        <input type="submit" value="Order Book">
+    </form>
+
+<!--OUTPUT ELEMENT-->
+<h2>Output Element (<code>output</code>) </h2>
+    <ul>
+        <li>It is commonly used inside of a form element for dynamically things.</li>
+        <li> (<code>output</code>) element takes the following attributes:</li>
+            <p> (<code>for</code>) <br>
+                (<code>form</code>) <br>
+                (<code>name</code>) </p>
+    </ul>
+    <p>Example:</p>
+    <form
+      oninput="result.value=parseInt(sliderInput.value)*2; document.querySelector('span').innerText=sliderInput.value"
+      id="calculation-form"
+    >
+      <label for="slideInput" id="sliderValue">
+        Slider Value: <span> </span>
+      </label>
+      <input name="sliderInput" type="range" value="0" />
+      <label for="result"> Output (Slider value * 2): </label>
+      <output name="result" for="sliderInput" form="calculation-form"> </output>
+    </form>
+
+<!--Quotation Element <q>-->
+<h2>Quotation (<code>q</code>) Element </h2>
+    <ul>
+        <li>
+            The (<code>q</code>) element is used to represent quotation, just like (<code>blockquote</code>).</li>
+        <li>It accepts a cite attribute that links to a valid URL that provides further context for the quotation.</li>    
+        <li>Exemple:</li>
+            <p>The World Wide Web Consortium's idea of the Web includes
+                <q cite="https://www.w3.org/Consortium/mission">
+                  participation, sharing knowledge, and thereby building trust on a global
+                  scale.
+                </q>
+                One can't help but agree with it!</p>
+    </ul>
+
+
+<!--Select Element <select>-->
+<h2>Select Element (<code>select</code>) </h2>
+    <ul>
+        <li> The (<code> select</code>) element can make you dropdown list where users can select from it </li>
+        <li> It can be use with (<code>option</code>) element.</li>
+        <li>With all information shapes in side of (<code>form</code>) input. </li>
+        <li>The select element has different values and attributes:</li>
+            <p>(<code>autofocus</code>: When you reflesh the pace it automaticly show you the list. <br>
+                (<code>disabled</code>): Disables the dropdown list. <br>
+                (<code>form</code>): specifies the form that the dropdown list. <br>
+                (<code>multiple</code>): Uses for multiple options. <br>
+                (<code>name</code>): Specifies the name of the dropdown list. <br>
+                (<code>required</code>):  indicates that the drop-down list requires a selection before the form can be submitted. <br>
+                (<coe>size</coe>): specifiesthe number of options visible in the dropdown list. </p>
+        <li>Exemple: 
+
+            <form>
+                <label for="food">Select Your Food Type</label>
+                <select name="food" id="food">
+                    <option value="1">Beef</option>
+                    <option value="2">Chicken</option>
+                    <option value="3">Fish</option>
+                    <option value="4">Vegetarian</option>
+                </select>
+                <input type="submit" value="Order Dinner">
+            </form>
+        </li>        
+    </ul>
+                
+<!--TABLE ELEMENT <table>-->
+<h2>Table Element (<code>table</code>) </h2>
+    <ul>
+        <li>Table Element represents tabular data to the page.</li>
+        <li>Tables are two dimensional, made up of rows and columns, and can contain many types of content.</li>
+        <li>Exemple:</li>
+           
+            <table>
+                <tr>
+                    <th>Heading 1</th>
+                    <th>Heading 2</th>
+                    <th>Heading 3</th>
+                    <th colspan="3">Heading 4-5-6</th>
+                </tr>
+                <tr>
+                    <td>Cell 1</td>
+                    <td>Cell 2</td>
+                    <td>Cell 3</td>
+                </tr>
+                <tr>
+                    <td>Cell 4</td>
+                    <td>Cell 5</td>
+                    <td>Cell 6</td>
+                </tr>
+            </table>
+    </ul>
+<!--UNDERLINE ELEMENT <u>-->
+<h2>Underline Element (<code>u</code>) </h2>
+<ul><li>It <u>underlines</u> the words or whatever you want.</li></ul>
+   </body>
+</html>
